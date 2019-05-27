@@ -49,6 +49,11 @@ commander
       replaceTemplateStr(`./${projectName}/public/index.html`, projectName);
       console.log('   [Done]'.green.bold);
     
+      console.log('[Renaming] conf files'.gray);
+      shell.mv([`./${projectName}/editorconfig`], `./${projectName}/.editorconfig`);
+      shell.mv([`./${projectName}/gitignore`], `./${projectName}/.gitignore`);
+      console.log('   [Done]'.green.bold);
+
       // Init git
       console.log('[Initializing] git'.green);
       shell.exec(`cd ${projectName} && git init`);
