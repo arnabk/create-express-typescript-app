@@ -1,0 +1,16 @@
+{
+  "extends": ["tslint:latest", "tslint-config-prettier"],
+  "linterOptions": {
+    "exclude": [
+      "node_modules/**/*.ts",
+      "public/*",
+      "dist/*",
+      "coverage/*"
+    ]
+  },
+  "rules": {
+    "no-submodule-imports": false,
+    "ordered-imports": false,
+    "object-literal-sort-keys": false
+  }
+}
