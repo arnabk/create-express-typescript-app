@@ -2,7 +2,6 @@
   "name": "create-express-typescript-app",
   "description": "Bootstrap a project using Express & Typescript",
   "version": "0.0.1",
-  "private": true,
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
@@ -11,5 +10,8 @@
     "colors": "^1.3.3",
     "commander": "^2.20.0",
     "shelljs": "^0.8.3"
+  },
+  "bin": {
+    "create-express-typescript-app": "./index.js"
   }
 }

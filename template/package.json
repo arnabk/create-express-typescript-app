@@ -2,6 +2,7 @@
   "name": "create-express-typescript-app",
   "version": "0.0.1",
   "license": "MIT",
+  "private": true,
   "dependencies": {
     "body-parser": "^1.19.0",
     "cookie-parser": "^1.4.4",
