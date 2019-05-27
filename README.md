@@ -1,3 +1,4 @@
+[![npm version](https://badge.fury.io/js/create-express-typescript-app.svg)](https://badge.fury.io/js/create-express-typescript-app)
 # create-express-typescript-app
 
 Bootstrap a project using Express & Typescript
