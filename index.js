@@ -4,7 +4,9 @@ require('colors');
 const commander = require('commander');
 const shell = require('shelljs');
 const fs = require('fs');
-const packageJson = require('./package.json');
+const path = require('path');
+
+const packageJson = require(path.join(__dirname, 'package.json'));
 
 shell.set('-e');
 
@@ -32,7 +34,7 @@ commander
       // Make sure to ignore node_modules & build folders
       console.log('[Copying] template'.gray);
       shell.mkdir([`${projectName}`]);
-      shell.cp('-R', 'template/*', `${projectName}`);
+      shell.cp('-R', path.join(__dirname, 'template', '*'), `${projectName}`);
       console.log('   [Done]'.green.bold);
     
       // Replace files with project name, where needed
