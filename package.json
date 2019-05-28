@@ -1,7 +1,7 @@
 {
   "name": "create-express-typescript-app",
   "description": "Bootstrap a project using Express & Typescript",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
