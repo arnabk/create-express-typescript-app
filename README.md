@@ -11,5 +11,16 @@ Bootstrap a project using Express & Typescript
 
 # How to use
 
+## Create project
+
     $ npx create-express-typescript-app hello-world
-    TODO - Add a screenshot of image showing how to create a new hello world project. Animated Gif?
+
+<img width="1122" alt="Create project" src="https://user-images.githubusercontent.com/446864/58442719-4d3ab700-80aa-11e9-868e-7c8c9fe09377.png">
+
+## Project structure
+
+<img width="510" alt="Project structure" src="https://user-images.githubusercontent.com/446864/58442720-4f047a80-80aa-11e9-98a2-485eb7fb1c7f.png">
+
+## Start development server
+
+<img width="536" alt="Start development server" src="https://user-images.githubusercontent.com/446864/58442722-50ce3e00-80aa-11e9-9319-a648623e8bf3.png">
